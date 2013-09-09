@@ -1,0 +1,399 @@
+body{
+	background: #e74c3c;
+}
+.ganesha-wrapper{
+	width: 500px;
+	margin: 0 auto;
+	background: transparent;
+	height: 500px;
+}
+.ganesha-head{
+	background: transparent;
+	width: 200px;
+	height: 40px;
+	border: 5px solid #EEE;
+	margin: 0 auto;
+}
+.ganesha-head-triangle{
+
+}
+.ganesha-head-triangle { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-left: 225px;
+    z-index: 2;
+ }
+.ganesha-head-triangle>div { 
+    width: 50px;
+    height: 5px;
+    background: #e74c3c;
+    transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+ }
+
+.ganesha-head-triangle>div:before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(56deg);
+    -moz-transform: rotate(56deg);
+    -ms-transform: rotate(56deg);
+    transform: rotate(56deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 2;
+}
+.ganesha-head-triangle>div:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 2;
+}
+.ganesha-face1{
+	background: transparent;
+	width: 200px;
+	height: 230px;
+	border: 5px solid #EEE;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 0;
+	position: absolute;
+	margin-left: 145px;
+	z-index: -1;	
+}
+.ganesha-face1-triangle { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    z-index: 0;
+    margin-left: 225px;
+ }
+.ganesha-face1-triangle>div { 
+    width: 50px;
+    height: 5px;
+    background: #e74c3c;
+    transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+ }
+
+.ganesha-face1-triangle>div:before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(56deg);
+    -moz-transform: rotate(56deg);
+    -ms-transform: rotate(56deg);
+    transform: rotate(56deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-triangle>div:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-triangle2 { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    z-index: 0;
+    margin-left: 122px;
+ }
+.ganesha-face1-triangle2>div { 
+    width: 50px;
+    height: 6px;
+    background: #e74c3c;
+    transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+ }
+
+.ganesha-face1-triangle2>div:before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(56deg);
+    -moz-transform: rotate(56deg);
+    -ms-transform: rotate(56deg);
+    transform: rotate(56deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-triangle2>div:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-triangle3 { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    z-index: 0;
+    margin-left: 328px;
+ }
+.ganesha-face1-triangle3>div { 
+    width: 50px;
+    height: 6px;
+    background: #e74c3c;
+    transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+ }
+
+.ganesha-face1-triangle3>div:before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(56deg);
+    -moz-transform: rotate(56deg);
+    -ms-transform: rotate(56deg);
+    transform: rotate(56deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-triangle3>div:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-ear1{
+	width: 100px;
+	height: 225px;
+	border: 5px solid #EEE;
+	position: absolute;
+	margin-top: 21px;
+	margin-left: 10px;
+	-webkit-border-top-left-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	border-top-left-radius: 50px;
+}
+.ganesha-ear2{
+	width: 100px;
+	height: 225px;
+	border: 5px solid #EEE;
+	position: absolute;
+	margin-top: 21px;
+	margin-left: 380px;
+	-webkit-border-top-right-radius: 50px;
+	-moz-border-radius-topright: 50px;
+	border-top-right-radius: 50px;
+}
+.ganesha-ear1-triangle1 { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    z-index: 0;
+    margin-left: 92px;
+ }
+.ganesha-ear1-triangle1>div { 
+    width: 50px;
+    height: 6px;
+    background: #e74c3c;
+    transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+ }
+
+.ganesha-ear1-triangle1>div:before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(56deg);
+    -moz-transform: rotate(56deg);
+    -ms-transform: rotate(56deg);
+    transform: rotate(56deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-ear1-triangle1>div:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-ear2-triangle1 { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    z-index: 0;
+    margin-left: 357px;
+ }
+.ganesha-ear2-triangle1>div { 
+    width: 50px;
+    height: 6px;
+    background: #e74c3c;
+    transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+ }
+
+.ganesha-ear2-triangle1>div:before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(56deg);
+    -moz-transform: rotate(56deg);
+    -ms-transform: rotate(56deg);
+    transform: rotate(56deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-ear2-triangle1>div:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+    transform: rotate(-56deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-trianglebig { 
+    position: absolute;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 270px;
+    z-index: 0;
+    margin-left: 146px;
+ }
+.ganesha-face1-trianglebig>div { 
+    width: 208px;
+    height: 5px;
+    background: #e74c3c;
+    transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+ }
+
+.ganesha-face1-trianglebig>div:before {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-face1-trianglebig>div:after {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #EEE;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    position: absolute;
+    top: -19px;
+    left: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.ganesha-trunk1{
+	
+}
